@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 
 android {
-  compileSdkVersion 22
-  buildToolsVersion "22.0.1"
+  compileSdkVersion 33
+  buildToolsVersion "33.0.2"
 
   defaultConfig {
     minSdkVersion 14
@@ -20,7 +20,7 @@ android {
 }
 
 dependencies {
-  compile 'com.android.support:support-annotations:22.2.0'
+  implementation 'androidx.annotation:annotation:1.0.0'
 }
 
-apply from: './gradle-mvn-push.gradle'
+//apply from: './gradle-mvn-push.gradle'
